@@ -1,0 +1,57 @@
+# ------------------------------
+# Python
+# ------------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+*.egg
+.env
+.env.*  
+
+# ------------------------------
+# Virtual Environment
+# ------------------------------
+.venv/
+venv/
+ENV/
+env/
+
+# ------------------------------
+# IDE / OS Files
+# ------------------------------
+.DS_Store
+.idea/
+.vscode/
+
+# ------------------------------
+# Logs / Temp Files
+# ------------------------------
+*.log
+logs/
+tmp/
+*.pid
+
+# ------------------------------
+# Model Artifacts
+# ------------------------------
+models_artifacts/
+!models_artifacts/.gitkeep
+
+# ------------------------------
+# SQL Dumps / Data Files
+# ------------------------------
+*.sql
+*.db
+*.sqlite3
+*.csv
+*.tsv
+
+# ------------------------------
+# Build / Packaging
+# ------------------------------
+build/
+dist/
+pip-wheel-metadata/
